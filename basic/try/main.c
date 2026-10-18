@@ -1,10 +1,13 @@
 #include <stdio.h>
+#include "monitor.h"
 
-int is_alarm(int temperature);
-
-int main(void)
+int main()
 {
-    int temperature = 35;
-    printf("%d\n", is_alarm(temperature));
+    int temperature = 0;
+    printf("请输入温度：\n");
+    scanf("%d",&temperature);
+    printf("当前温度：%d\n",temperature);
+    int result = is_alarm(temperature);
+    printf("%d\n", result);
     return 0;
 }
