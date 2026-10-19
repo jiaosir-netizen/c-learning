@@ -6,7 +6,7 @@
             "name": "调试 monitor",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceFolder}\\basic\\try\\monitor.exe",
+            "program": "${workspaceFolder}\\basic\\try\\main.exe",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}\\basic\\try",
